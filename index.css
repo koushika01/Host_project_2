@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    
+    width: 35%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    border-radius: 20px;
+    background-color: #e7b4ca;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #612940;
+}
+.heading{
+    background-color:#9D6381;
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 20px;
+    color: azure;
+}
+#hint{
+    font-size: 30px;
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+   
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+#input,#button{
+    border-radius: 5px;
+    padding: 20px;
+
+}
+#input{
+    font-size: 20px;
+}
+#attempt{
+    
+    font-size: 20px;
+    grid-column:1/3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button:hover{
+    background-color: #f9f6f7;
+    color:#9D6381 ;
+    
+    
+
+}
+#button{
+    background-color: #9D6381;
+    color: azure;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
